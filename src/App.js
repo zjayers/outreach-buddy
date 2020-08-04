@@ -10,7 +10,6 @@ function App() {
   const [phoneNumber, setPhoneNumber] = useState("");
   const [gitProfile, setGitProfile] = useState("");
   const [website, setWebsite] = useState("");
-  const [currentRole, setCurrentRole] = useState("");
   const [area, setArea] = useState("");
   const [companyName, setCompanyname] = useState("");
   const [jobTitle, setJobTitle] = useState("");
@@ -49,7 +48,7 @@ function App() {
   const renderSubjectLine = () => {
     switch (type) {
       case "recruiter":
-        return `Interested in ${jobTitle} and ${companyName}`;
+        return `Interested in ${jobTitle} at ${companyName}`;
       case "engineer":
         return `Request: Informational Interview about ${companyName}`;
       case "executive":
@@ -171,15 +170,6 @@ function App() {
               />
             </Form.Field>
             <Form.Field>
-              <label>Current Role</label>
-              <input
-                value={currentRole}
-                onChange={(e) => setCurrentRole(e.target.value)}
-                type="text"
-                placeholder="Front End Engineer"
-              />
-            </Form.Field>
-            <Form.Field>
               <label>Location</label>
               <input
                 value={area}
@@ -226,7 +216,6 @@ function App() {
               phoneNumber,
               gitProfile,
               website,
-              currentRole,
               area,
               contactName,
               companyName,
