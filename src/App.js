@@ -86,8 +86,8 @@ function App() {
               <input
                 value={contactName}
                 onChange={(e) => setContactName(e.target.value)}
-                type="text"
                 placeholder="Contact Name"
+                type="text"
               />
             </Form.Field>
             <Form.Field>
