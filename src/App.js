@@ -66,7 +66,7 @@ function App() {
     <div>
       <div className="sticky">
         <Header as="h3" block>
-          Cover Buddy
+          Outreach Buddy
         </Header>
       </div>
       <Container
