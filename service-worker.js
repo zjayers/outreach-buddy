@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/outreach-buddy/precache-manifest.e5e32ada9be41dca5fa98059d32c4ed6.js"
+  "/outreach-buddy/precache-manifest.bd0cc4b1d7e84c07b143217dd8153810.js"
 );
 
 self.addEventListener('message', (event) => {
