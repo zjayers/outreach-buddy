@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5b4a3406dc519b8069cb8e5a70b374fa",
+    "revision": "456efada8b43b281cf7bcfb9a0080988",
     "url": "/outreach-buddy/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/outreach-buddy/static/css/2.c0576261.chunk.css"
   },
   {
-    "revision": "337251f14ed0cd26e1d2",
+    "revision": "94f9f08a4e5fff84e27b",
     "url": "/outreach-buddy/static/css/main.44b11144.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/outreach-buddy/static/js/2.ca258601.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "337251f14ed0cd26e1d2",
-    "url": "/outreach-buddy/static/js/main.881c6b88.chunk.js"
+    "revision": "94f9f08a4e5fff84e27b",
+    "url": "/outreach-buddy/static/js/main.e6f656bc.chunk.js"
   },
   {
     "revision": "55904435acf00c22bc5f",
