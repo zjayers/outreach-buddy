@@ -11,7 +11,7 @@ Phone: ${d.phoneNumber}
 GitHub: github.com/${d.gitProfile}
 Website: ${d.website}
 
-${moment().format("MMMM Do YYYY")}
+${moment().format("MMMM Do, YYYY")}
 `;
 };
 
@@ -70,7 +70,7 @@ const thankYou = (d) => {
   return `
 Hello ${d.contactName},
 
-I really appreciate you taking the time to speak with me today about the ${
+I appreciate you taking the time to speak with me today about the ${
     d.jobTitle
   } role at ${d.companyName}.
 

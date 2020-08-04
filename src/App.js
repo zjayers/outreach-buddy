@@ -224,7 +224,7 @@ function App() {
               type,
             })}
             wrap="true"
-            readOnly={true}
+            onChange={() => {}}
           />
         </Container>
       </Container>
