@@ -50,7 +50,7 @@ const engineer = (d) => {
   return `
 Hello ${d.contactName},
 
-My name is ${d.userName} and I am also a software engineer in the ${d.area} area. I came across a job posting for ${d.jobTitle} at ${d.companyName} and, based on my research thus far, I believe ${d.companyName} would be a great fit for my skill-set. I would love to speak with you about your experience at ${d.companyName} and better understand the culture, goals, and workflow of the engineering team. Do you have [15-20] minutes for a phone call in the next week or two? Thank you in advance for your time/consideration. I look forward to our conversation.
+My name is ${d.userName} and I am also a software engineer in the ${d.area} area. I came across a job posting for a ${d.jobTitle} role at ${d.companyName} and, based on my research thus far, I believe the position would be a great fit for my skill-set. I would love to speak with you about your experience at ${d.companyName} and better understand the culture, goals, and workflow of the engineering team. Do you have [15-20] minutes for a phone call in the next week or two? Thank you in advance for your time/consideration. I look forward to our conversation.
 
 Best,
 `;
@@ -60,7 +60,7 @@ const executive = (d) => {
   return `
 Hello ${d.contactName},
 
-My name is ${d.userName} and I am extremely interested in your open ${d.jobTitle} role at ${d.companyName}. I am a ${d.keywords} developer with extensive knowledge in your company's tech stack and a passion for tackling difficult projects. I would like to speak with you about your vision, pain points, and the ways I can add the most value to ${d.companyName}. Do you have any availability in the next week or two for a conversation? Thanks for your consideration, I look forward to speaking with you.
+My name is ${d.userName} and I am extremely interested in your open ${d.jobTitle} role at ${d.companyName}. I am a Full-Stack Software Engineer with extensive knowledge in your company's tech stack and a passion for tackling difficult projects. I would like to speak with you about your vision, pain points, and the ways I can add the most value to ${d.companyName}. Do you have any availability in the next week or two for a conversation? Thanks for your consideration, I look forward to speaking with you.
 
 Best,
 `;
@@ -70,9 +70,15 @@ const thankYou = (d) => {
   return `
 Hello ${d.contactName},
 
-I really appreciate you taking the time to speak with me today about the ${d.jobTitle} role at ${d.companyName}.
+I really appreciate you taking the time to speak with me today about the ${
+    d.jobTitle
+  } role at ${d.companyName}.
 
-I am very interested in moving forward in your process and hope that I’m able to learn more about your needs and how I can make an immediate impact at ${d.companyName}. As I mentioned, my ${d.keywords} expertise will allow me to hit the ground running and become a fantastic asset to your engineering team. Please let me know if I can provide any additional information to help with your decision. 
+I am very interested in moving forward in your process and hope that I’m able to learn more about your needs and how I can make an immediate impact at ${
+    d.companyName
+  }! As I mentioned, my ${
+    d.keywords.split(",")[0]
+  } expertise will allow me to hit the ground running and become a fantastic asset to your engineering team. Please let me know if I can provide any additional information to help with your decision. 
 
 Thanks again, 
 `;
