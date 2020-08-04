@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/outreach-buddy/static/css/main.44b11144.chunk.css",
+    "main.js": "/outreach-buddy/static/js/main.540f983d.chunk.js",
+    "main.js.map": "/outreach-buddy/static/js/main.540f983d.chunk.js.map",
+    "runtime-main.js": "/outreach-buddy/static/js/runtime-main.eb9b7229.js",
+    "runtime-main.js.map": "/outreach-buddy/static/js/runtime-main.eb9b7229.js.map",
+    "static/css/2.c0576261.chunk.css": "/outreach-buddy/static/css/2.c0576261.chunk.css",
+    "static/js/2.ca258601.chunk.js": "/outreach-buddy/static/js/2.ca258601.chunk.js",
+    "static/js/2.ca258601.chunk.js.map": "/outreach-buddy/static/js/2.ca258601.chunk.js.map",
+    "index.html": "/outreach-buddy/index.html",
+    "precache-manifest.f878c7c97ba68011ae0b133d3dd20d55.js": "/outreach-buddy/precache-manifest.f878c7c97ba68011ae0b133d3dd20d55.js",
+    "service-worker.js": "/outreach-buddy/service-worker.js",
+    "static/css/2.c0576261.chunk.css.map": "/outreach-buddy/static/css/2.c0576261.chunk.css.map",
+    "static/css/main.44b11144.chunk.css.map": "/outreach-buddy/static/css/main.44b11144.chunk.css.map",
+    "static/js/2.ca258601.chunk.js.LICENSE.txt": "/outreach-buddy/static/js/2.ca258601.chunk.js.LICENSE.txt",
+    "static/media/semantic.min.css": "/outreach-buddy/static/media/outline-icons.ef60a4f6.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.eb9b7229.js",
+    "static/css/2.c0576261.chunk.css",
+    "static/js/2.ca258601.chunk.js",
+    "static/css/main.44b11144.chunk.css",
+    "static/js/main.540f983d.chunk.js"
+  ]
+}
